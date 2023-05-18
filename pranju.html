@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="roshan.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Yantramanav:wght@300&display=swap" rel="stylesheet">
+
+</head>
+  <body style="margin: 0; padding: 0; background-color: #eeeeee">
+    <div class="div1">
+      <!-- <img class="img" src="photos/p4.png" /> -->
+      <div class="schoolname">
+       <img src="photos/schoollogo.png" >
+      </div>
+      <hr>
+        
+      <nav><input type="checkbox" id="check">
+        <img src="photos/navlogo.png" for="check" class="checkbtn" id="checkbtn" onclick=myfun()>
+           
+        <ul id="navv">
+          
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admission.html">Admission</a></li>
+          <li><a href="features.html">Features </a></li>
+          
+        </ul>
+       
+      
+      </nav>
+    </div>
+    <br />
+    <div class="div2">
+      <center>
+      <h1 id="h1">
+          <br>
+          <div class="inforamation"></div>
+       <div class="roshan">
+          <br>
+         <a href=""> <img src="photos/pranjuu_auto_x2.jpg"></a>
+        <br>
+          <center>
+          <hr style="width:70%; height:1px; background-color:rgb(102, 98, 98);">
+           <p style="font-size:3vw; font-family:Candara">Pranju Dhungel</p>
+           <hr style="width:70%; height:1px; background-color:rgb(102, 98, 98);">
+          </center>
+       </div>
+      <center>
+          <div class="myinfo">
+              please incert your info here !
+          </div>
+      </center>
+
+      <center>
+          <hr style="width:95%;">
+          <p style="font-size:2vw; font-family:helvetica; color:rgb(72, 72, 202);border-bottom: 2px solid rgb(72, 72, 202); width:50%;">
+              OFFICIAL FACEBOOK PAGE
+          </p>
+         <br>
+          <div class="facebooklogo">
+              <a href="https://www.facebook.com/profile.php?id=100084618435894"
+                ><img
+                  src="photos/facebook.jpg"
+                  class="logo"
+              /></a>
+
+            </div>
+            <br>
+            <a href="#" style="text-decoration: none; color: rgb(72, 72, 202);">
+              <p style="font-size:2vw; font-family: Candara;">Preetypranju@gmail.com</p>
+             </a>
+            <hr style="width:95%;">
+            
+         
+          
+           <a href="#" style="text-decoration: none; color: rgb(72, 72, 202); ">
+              <p style="font-size:1vw; font-family: Candara;">
+               @PranjuWebsite.com
+              </p>
+          </a>
+      </center>
+      </h1>
+  </center>   
+
+      
+  
+
+   </div> 
+       
+     
+<script>
+  let check=true
+  function myfun(){
+    let nav = document.getElementById('navv')
+    if(check==true){
+    nav.style.display="flex"
+    check=false
+  }
+    else{
+    nav.style.display="none"
+    check=true
+    }
+    
+  }
+</script>
+  </body>
+</html>
